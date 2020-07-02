@@ -1,0 +1,8 @@
+git.webprogrammierung.org {
+    reverse_proxy localhost:3000
+}
+
+webprogrammierung.org {
+     root * /root/gitea/gitea/custom/public/docs
+     file_server
+}
