@@ -6,3 +6,10 @@ webprogrammierung.org {
      root * /root/gitea/gitea/custom/public/docs
      file_server
 }
+
+php.webprogrammierung.org {
+
+     root * /www/php
+     php_fastcgi 127.0.0.1:9000
+
+}
