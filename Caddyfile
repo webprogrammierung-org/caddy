@@ -15,3 +15,7 @@ git.webprogrammierung.org {
      root * /git
      file_server
 }
+
+code.webprogrammierung.org {
+     reverse_proxy localhost:1212
+}
