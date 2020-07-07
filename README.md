@@ -1,17 +1,15 @@
 # caddy
+## Webserver
+```
 
-Webserver
 
-## Installieren
+
+```
+###  Installieren
 * [Download](https://caddyserver.com/docs/download)
-## Starten
+### Starten
 
 ```
 go get  gitea.webprogrammierung.org/webprogrammierung.org/caddy
 
 ```
-## Installieren
-
-
-
-* [Test](http://webprogrammierung.org)
