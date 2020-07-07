@@ -1,3 +1,15 @@
+## Mysql Installieren
+
+```
+wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
+apt-get install  gnupg
+sudo dpkg -i mysql-apt-config*
+sudo apt update
+sudo apt-get install mysql-server
+
+```
+
+
 ## Apache Server
 ```
 sudo apt-get update && sudo apt-get upgrade
