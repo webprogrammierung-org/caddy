@@ -1,19 +1,12 @@
 gitea.webprogrammierung.org {
-    reverse_proxy localhost:3000
+    reverse_proxy 127.0.0.1:3000
 }
 
 webprogrammierung.org {
      reverse_proxy 127.0.0.1:8000
 }
 
-mein.webprogrammierung.org {
-     reverse_proxy localhost:3001
-}
 
-git.webprogrammierung.org {
-     root * /git
-     file_server
-}
 
 code.webprogrammierung.org {
      reverse_proxy 127.0.0.1:8080
