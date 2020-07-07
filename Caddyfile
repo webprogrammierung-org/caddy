@@ -3,8 +3,7 @@ gitea.webprogrammierung.org {
 }
 
 webprogrammierung.org {
-     root * /docs
-     file_server
+     reverse_proxy 127.0.0.1:8000
 }
 
 mein.webprogrammierung.org {
@@ -18,8 +17,4 @@ git.webprogrammierung.org {
 
 code.webprogrammierung.org {
      reverse_proxy 127.0.0.1:8080
-}
-
-wiki.webprogrammierung.org {
-    reverse_proxy 127.0.0.1:8000
 }
